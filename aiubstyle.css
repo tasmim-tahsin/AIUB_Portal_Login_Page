@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    background-color: #efefef;
+}
+.main{
+    background-color: white;
+    height: 22.43rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 13rem;
+    position: relative;
+}
+.image-text{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.text{
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+    text-align: center;
+    font-size: .9rem;
+    background-color: white;
+    border-left: .38rem solid #efefef;
+}
+.text p{
+    font-size: 0.85rem;
+}
+
+.image{
+    margin: 0.7rem;
+}
+input{
+    width: 50%;
+    background-color: #e8f0fe;
+    padding: 0;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    border: 0.1rem solid #d1edf1;
+    width: 15rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem ;
+}
+input[type="submit"]{
+    background-color: #497faf;
+    color : white;
+    height: 2rem;
+    border: none;
+    margin-top: -0.3rem;
+    margin-bottom: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #80d3fb;
+    font-size: 0.8rem;
+    margin-left: 4.5rem;
+    margin-right: 3.5rem ;
+    margin-bottom: 3rem;
+    margin: 2rem;
+    text-align: center;
+    
+
+}
+.signin{
+    font-size: 0.79rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+.enter{
+    width: 56rem;
+}
+
+input:hover{
+    border-color: #0c4da2d4;
+}
+
+input[type="submit"]:hover{
+    background-color: #0c4da2;
+}
+
+a:hover{
+    color: #0c4da28d;
+}
